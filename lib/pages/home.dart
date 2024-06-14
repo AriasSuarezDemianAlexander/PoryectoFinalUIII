@@ -8,6 +8,8 @@ import 'package:arias0315/tables/tblempleados.dart';
 // ignore: unused_import
 import 'package:arias0315/tables/tbldetallespedido.dart';
 import 'package:arias0315/tables/tblclientes.dart';
+import 'package:arias0315/tables/conclusiones.dart';
+import 'package:arias0315/tables/bibliografia.dart';
 import 'perfil.dart';
 import 'contacto.dart';
 import 'productos.dart';
@@ -95,7 +97,7 @@ class PaginaInicio extends StatelessWidget {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.production_quantity_limits),
+                leading: Icon(Icons.people),
                 title: const Text('Clientes'),
                 onTap: () {
                   Navigator.push(
@@ -105,22 +107,53 @@ class PaginaInicio extends StatelessWidget {
                 },
               ),
               ListTile(
-                leading: Icon(Icons.contact_mail),
+                leading: Icon(Icons.receipt_long),
                 title: const Text('Pedidos'),
                 onTap: () {
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => ContactoPage()),
+                    MaterialPageRoute(builder: (context) => PedidosPage()),
                   );
                 },
               ),
               ListTile(
-                leading: Icon(Icons.contact_mail),
+                leading: Icon(Icons.person),
                 title: const Text('Empleados'),
                 onTap: () {
                   Navigator.push(
                     context,
                     MaterialPageRoute(builder: (context) => EmpleadosPage()),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.list_alt),
+                title: const Text('Detalles del Pedido'),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => DetallesPedidoPage()),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.list_alt),
+                title: const Text('Conclusiones'),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => ConclusionesPage()),
+                  );
+                },
+              ),
+              ListTile(
+                leading: Icon(Icons.list_alt),
+                title: const Text('Bibliografias'),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => BibliografiaPage()),
                   );
                 },
               ),
@@ -199,19 +232,20 @@ class PaginaInicio extends StatelessWidget {
         bottomNavigationBar: const TabBar(
           tabs: [
             Tab(
-              icon: Icon(Icons.home, color: Colors.white),
+              icon: Icon(Icons.home, color: Color(0xff666666)),
               text: 'Inicio',
             ),
             Tab(
-              icon: Icon(Icons.production_quantity_limits, color: Colors.white),
+              icon: Icon(Icons.production_quantity_limits,
+                  color: Color(0xff6d6d6d)),
               text: 'Prod',
             ),
             Tab(
-              icon: Icon(Icons.person, color: Colors.white),
+              icon: Icon(Icons.person, color: Color(0xff5f5f5f)),
               text: 'Perfil',
             ),
             Tab(
-              icon: Icon(Icons.contact_mail, color: Colors.white),
+              icon: Icon(Icons.contact_mail, color: Color(0xff7f7f7f)),
               text: 'Cont',
             ),
           ],

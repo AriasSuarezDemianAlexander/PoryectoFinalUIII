@@ -16,38 +16,38 @@ class ProductosPagee extends StatelessWidget {
   final List<Producto> productos = [
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Mesa de madera",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/Closet.jpg",
+      nombre: "Closet de madera",
       precio: 150.0,
     ),
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Silla de roble",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/cocina6.jpeg",
+      nombre: "Cocina de Marmol",
       precio: 80.0,
     ),
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Armario de pino",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/mdb3.jpeg",
+      nombre: "Mueble de Baño",
       precio: 250.0,
     ),
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Estantería de cerezo",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/msd2.jpeg",
+      nombre: "Cajonera",
       precio: 120.0,
     ),
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Mesa de centro",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/Repisaa2.jpg",
+      nombre: "Repisa",
       precio: 90.0,
     ),
     Producto(
       imagenUrl:
-          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/IMGFlutlabCarpinteria/main/iconC.jpg",
-      nombre: "Silla de escritorio",
+          "https://raw.githubusercontent.com/AriasSuarezDemianAlexander/img_iOS_C/main/Flutter_A12/cocina5.jpeg",
+      nombre: "Otra cocina",
       precio: 60.0,
     ),
   ];

@@ -18,7 +18,7 @@ class MiAplicacion extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Negocio de Carpinteria',
+      title: 'Negocio de Carpintería',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -130,7 +130,7 @@ class PaginaSesion extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: const Text('Negocio de Carpinteria',
+        title: const Text('Negocio de Carpintería',
             style: TextStyle(color: Colors.white)),
         backgroundColor: const Color(0xffe8a96c),
         elevation: 8,
